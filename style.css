@@ -1,0 +1,649 @@
+
+
+body, ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--header--*/
+
+header{
+    height: 100vh;
+    background-image: url('Paris-sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*height: 100vh;*/
+    background-position: bottom center;
+}
+
+header img{
+    border-style: white;
+    width: 100px;
+    margin: 30px;
+    float: left;
+}
+
+
+ul{
+  float: right;
+}
+
+
+li{
+    display: inline-block;
+}
+
+li a{
+    display: inline-block;
+    height: 40px;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    line-height: 40px;
+    vertical-align: middle;
+    margin-top: 50px;
+    font-size: 16px;
+
+}
+
+ li a:hover{
+    background-color: Darksalmon;
+    transition: 0,8s;
+
+
+}
+
+h1{
+    font-size: 50px;
+    margin-left: 180px;
+    margin-top:auto;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    padding-top: 300px;
+
+}
+
+h2{
+    font-size: 33px;
+    margin-left: 180px;
+    color: white;
+    font-weight: lighter;
+    margin-top: -10px;
+    font-family: Lora;
+
+}
+
+.btn1{
+    width: 250px;
+    height: 45px;
+    display: block;
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 70px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    margin-left: 180px;
+    margin-top: 40px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: helvetica;
+    /*transition: 0.6s;*/
+
+}
+.btn1:hover{
+    background-color: Darksalmon;
+    color: white;
+}
+
+/*-- Fin header--*/
+
+/* Section 1 */
+main img{
+
+    width: 500px;
+    height: 700px;
+    margin-top:  50px;
+    margin-right: 200px;
+    float: right;
+    position: relative;
+}
+
+
+section.section1 .container{
+    margin: 100px auto;
+    min-height: 500px;
+}
+
+h3{
+    font-size: 40px;
+    margin: auto;
+    padding-top: 10px;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.trait_dessus{
+   border-top: 1px solid Darksalmon;
+   width : 300px;
+   margin-top: 10px;
+}
+
+h4{
+  font-size: 20px;
+  padding-top: 20px;
+  color: black;
+  font-family:'playfair display' cursive;
+
+}
+
+/* Section 1 */
+section.section1 .container{
+    margin: 100px auto;
+    min-height: 500px;
+}
+
+h3{
+  font-size: 40px;
+  margin: auto;
+  padding-top: 10px;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.trait_dessus {
+  border-top: 1px solid Darksalmon;
+  width : 300px;
+  margin-top: 10px;
+}
+
+h4{
+  font-size: 20px;
+  padding-top: 20px;
+  color: black;
+  font-family:'playfair display' cursive;
+
+}
+
+section.section1 article{
+    width: 480px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 70px
+}
+
+section.section1 article p{
+    margin-top:10px;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 22px;
+    color: grey;
+}
+
+section.section1 article p.chapeau{
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+}
+
+section.section1 article .text{
+    height: 60px;
+    margin: 10px 0;
+    clear: left;
+}
+
+section.section1 article .text span{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 10px;
+    vertical-align: middle;
+    margin: 10px 20px 10px 0;
+    float: left;
+    margin-top: 15px;
+}
+
+section.section1 article .rose span{background:Darksalmon;}
+section.section1 article .yellow span{background:Darksalmon}
+section.section1 article .blue span{background:Darksalmon}
+
+section.section1 article .text p{
+    float: left;
+    display: block;
+    border-bottom: 1px solid silver;
+    height: 50px;
+    width: 350px;
+    font-weight: lighter;
+    color: black;
+    margin-top: 10px;
+
+}
+
+section.section1 article .text p.no-border{
+    border: none;
+}
+
+
+section.section1 aside{
+    width: 480px;
+    padding-left: 400px;
+    float: right;
+}
+
+section.section1 aside .square{
+    background: Darksalmon;
+    height: 360px;
+    width: 320px;
+    margin-top: -320px;
+    position: inherit;
+    margin-bottom: 100px;
+}
+/* Fin de la Section 1 */
+
+
+
+/* Section 2 Formation */
+section.section2 .container{
+    margin: 100px auto;
+    min-height: 500px;
+
+}
+
+h5{
+   font-size: 40px;
+   margin: auto;
+   padding-top: 200px;
+   color: black;
+   font-family: 'Abril Fatface', cursive;
+   margin-left: 200px;
+}
+
+.trait_dessus1{
+   border-top: 1px solid Darksalmon;
+   width : 215px;
+   margin-top: 10px;
+   margin-left: 200px
+}
+
+section #formation{
+  width: 90px;
+  height: 500px;
+  margin-top: 80px;
+  margin-left: 10px;
+
+}
+
+section.section2 article{
+  padding-left: 300px;
+  background-image: url('Formation.png');
+  background-repeat: no-repeat;
+  height: 571px;
+  margin-top: 50px;
+  margin-left: 130px;
+}
+
+section.section2 article p{
+  margin-top:10px;
+  font-family: helvetica;
+  font-size: 20px;
+  line-height: 20px;
+  color: black;
+  margin-left: -180px;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  letter-spacing: 2px;
+}
+/* Fin de la Section 2 Formation*/
+
+/* expérience */
+h6{
+  font-size: 40px;
+  margin: auto;
+  padding-top: 70px;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 200px;
+}
+
+.trait_dessus2{
+  border-top: 1px solid Darksalmon;
+  width : 230px;
+  margin-top: 10px;
+  margin-left: 200px;
+
+}
+
+section #Experience{
+  width: 90px;
+  height: 480px;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+section.section3 article{
+  padding-left: 300px;
+  background-image: url('Experience.png');
+  background-repeat: no-repeat;
+  height: 700px;
+  margin-top: 50px;
+  margin-left: 180px;
+}
+
+section.section3 article p{
+  margin-top:10px;
+  font-family: helvetica;
+  font-size: 20px;
+  line-height: 20px;
+  color: black;
+  margin-left: -230px;
+  padding-top: 25px;
+  padding-bottom: 125px;
+  letter-spacing: 2px;
+}
+/* fin expérience */
+
+/* Certifications */
+h6{
+  font-size: 40px;
+  margin: auto;
+  padding-top: 70px;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 200px;
+  margin-top: 300px;
+}
+
+.trait_dessus3{
+  border-top: 1px solid Darksalmon;
+  width : 255px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+
+.Certificats{
+  display: flex;
+  float:none;
+  width: 500px;
+  margin-top: 30px;
+  font-size: 60px;
+  margin-left:200px;
+}
+
+.Certificats img{
+  height: 160px;
+  width: 280px;
+  display:inline-block;
+  line-height: 150px;
+  margin-top: 50px;
+  margin-bottom: -15px;
+}
+/* fin certifications */
+
+/* Langues */
+h6{
+  font-size: 40px;
+  margin: auto;
+  padding-top: 70px;
+  color: skyblue;
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.trait_dessus4{
+  border-top: 1px solid Darksalmon;
+  width : 160px;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.Langues2 p{
+  font-size: 22px;
+  color: black;
+  font-family: playfair display;
+  margin-left: 200px;
+  padding-top: 35px;
+}
+.lang{
+  display: flex;
+}
+.lang1{
+  display: flex;
+}
+
+.progress-bar {
+  margin-top: 57px;
+    width: 330px;
+    height: 24px;
+    padding: 4px;
+    margin-left: 43px;
+    background-color: white;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    background: Darksalmon;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+
+}
+
+.progress-bar:after {
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+/* fin langues */
+
+/* Centre d'intérêt */
+h6{
+  font-size: 40px;
+  margin: auto;
+  padding-top: 70px;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.trait_dessus5{
+  border-top: 1px solid Darksalmon;
+  width : 330px;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.hobbies i{
+    float:none;
+    width: 500px;
+    margin-top: 30px;
+    font-size: 60px;
+    color: Darksalmon;
+}
+
+.hobbies span i{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border: 3px solid black;
+    margin-top: 50px;
+    margin-left: 240px;
+    text-align: center;
+    line-height: 150px;
+    vertical-align: middle;
+}
+/* Fin centre d'intérêt */
+
+/* Mes projets */
+h6{
+  font-size: 40px;
+  margin: auto;
+  padding-top: 70px;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 200px;
+  margin-top: 300px;
+}
+
+.trait_dessus6{
+border-top: 1px solid Darksalmon;
+width : 215px;
+margin-top: 10px;
+margin-left: 200px;
+}
+
+.travaux {
+  float: left;
+  display: inline-block;
+  line-height: 45px;
+  margin-bottom: 150px;
+  margin-left: 130px;
+}
+
+.travaux img{
+    width: 550px;
+    height: 350px;
+    border: 8px solid black
+    box-shadow: 0px 5px 7px black;
+    transition: 0.5s;
+    padding-right: 20px;
+    margin: 10px;
+    margin-top: 60px;
+    float: left;
+}
+
+.travaux img:hover{
+    width: 630px;
+}
+/* Fin de mes projets */
+
+/* Formulaire de contact */
+h6{
+  font-size: 40px;
+  margin: auto;
+  padding-top: 70px;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.trait_dessus7{
+border-top: 1px solid Darksalmon;
+width : 150px;
+margin-top: 10px;
+margin-left: 200px;
+margin-bottom: 10px;
+}
+
+form{
+  display: inline-block;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+
+form input{
+  border: none;
+  height: 50px;
+  width:800px;
+  border-radius: 3px;
+  border: 1px solid Darksalmon;
+  margin-top: 20px;
+  font-size: 20px;
+  color: Darksalmon;
+  text-indent: 20px;
+  text:black;
+}
+
+form textarea{
+height: 200px;
+width:800px;
+border-radius: 3px;
+color: Darksalmon;
+margin-top: 20px;
+border-style:double;
+font-size: 20px;
+}
+/* Fin du formulaire de contact */
+
+/*--Footer--*/
+footer{
+    background-color: Darksalmon;
+    height: 270px;
+    margin-top: 60px;
+    clear: left; /* Stoppe la flotaison des éléments au-dessus */
+    display: block;
+
+}
+
+footer p{
+    margin-left: 40vw;
+    padding-top: 40px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+}
+
+footer .rs{
+  display: inline-block;
+  margin: 100px;
+    height: 10px;
+    float: right;
+    width: 230px;
+    margin-top: -10px;
+    margin-right: 605px;
+}
+
+footer .rs span{
+  display:inline-block;
+  height: 45px;
+  width: 45px;
+  border-radius: 30px;
+  border: 3px solid white;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 45px;
+  vertical-align: middle;
+}
+
+footer .rs span{
+    color: white;
+    border: 3px solid white;
+    margin: 10px;
+}
+/*--Fin de footer--*/
